@@ -11553,7 +11553,7 @@ footer.main-footer,
 
 /* ── Hero overlay with blue tint ── */
 .hero::before {
-    background: linear-gradient(270deg, transparent 27.97%, rgba(26, 60, 110, 0.88) 68.07%) !important;
+    background: linear-gradient(270deg, transparent 27.97%, rgb(40 59 88 / 88%) 68.07%) !important;
 }
 
 /* ── Page header overlay ── */
