@@ -3033,7 +3033,7 @@ header.main-header .header-sticky.active{
 }
 
 .footer-links{
-	max-width: 31%;
+	max-width: 23%;
 }
 
 .footer-links h2{
@@ -3072,7 +3072,7 @@ header.main-header .header-sticky.active{
 }
 
 .footer-location-info{
-	max-width: 34%;
+	max-width: 26%;
 }
 
 .footer-location-info ul{
@@ -3089,6 +3089,44 @@ header.main-header .header-sticky.active{
 .footer-location-info ul li img{
 	width: 100%;
 	max-width: 24px;
+}
+
+.footer-contact-info{
+	max-width: 26%;
+}
+
+.footer-contact-info ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-contact-info ul li{
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+	color: var(--white-color);
+	line-height: 1.5em;
+	margin-bottom: 12px;
+}
+
+.footer-contact-info ul li:last-child{
+	margin-bottom: 0;
+}
+
+.footer-contact-info ul li img{
+	width: 18px;
+	max-width: 18px;
+	margin-top: 2px;
+}
+
+.footer-contact-info ul li a{
+	color: inherit;
+	transition: all 0.4s ease-in-out;
+}
+
+.footer-contact-info ul li a:hover{
+	color: var(--accent-color);
 }
 
 .footer-social-links{
@@ -5447,8 +5485,16 @@ header.main-header .header-sticky.active{
 		margin-left: 0;
 	}
 	
+	.footer-links{
+		max-width: 48%;
+	}
+
 	.footer-location-info{
-		max-width: 38%;
+		max-width: 48%;
+	}
+
+	.footer-contact-info{
+		max-width: 48%;
 	}
 
 	.our-impact-images-box{
