@@ -884,11 +884,11 @@ header.main-header .header-sticky.active{
 	justify-content: space-between;
 	align-items: center;
 	gap: 30px;
-	margin-top: 180px;
+	margin-top: 50px;
 }
 
 .hero-body-content{
-	max-width: 560px;
+	max-width: 460px;
 }
 
 .hero-content p{
@@ -1056,7 +1056,7 @@ header.main-header .header-sticky.active{
 .about-us-counter-box{
 	position: relative;
 	bottom: 65px;
-	max-width: 140px;
+	max-width: 180px;
 	background: var(--accent-color);
 	border: 6px solid var(--bg-color);
 	border-radius: 10px;
@@ -3318,7 +3318,7 @@ header.main-header .header-sticky.active{
 	border-top: 1px solid var(--dark-divider-color);
 	text-align: center;
 	padding: 60px 0;
-	margin-top: 40px;
+	margin-top: 10px;
 }
 
 .footer-copyright-text p{
@@ -5348,7 +5348,7 @@ header.main-header .header-sticky.active{
 @media only screen and (max-width: 1440px){
 
 	.hero-body{
-		margin-top: 100px;
+		margin-top: 50px;
 	}
 
 	.our-causes-content{
